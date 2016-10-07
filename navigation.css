@@ -1,0 +1,60 @@
+nav {
+	text-align: center;
+	overflow: hidden;
+	padding: 0;
+}
+
+nav ul {
+	background-color: brown;
+	list-style-type: none;
+	margin: auto;
+	padding-top: 0;
+	padding-bottom: 5em;
+	text-align: center;
+	border: 4px groove dodgerblue;
+	padding-left: 0;
+	padding-right: 0;
+	width: 1000px;
+}
+
+nav ul:active {
+	width: 1010px;
+}
+
+nav li {
+	float: left;
+	margin: auto;
+	width: 248px;
+	height: 3em;
+	padding-top: 2em;
+	border-left: 2px groove dodgerblue;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	color: dodgerblue;
+	padding-top: 5em;
+	height: 5em;
+	vertical-align: middle;
+}
+
+a:visited {
+	color: violet;
+}
+
+a:hover {
+	color: green;
+}
+
+li:hover {
+	background-color: aquamarine;
+}
+
+li:active {
+	padding: 0 5px 0 5px;
+	position: relative;
+	padding-top: 2em;
+}
