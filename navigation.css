@@ -7,27 +7,48 @@ nav {
 nav ul {
 	background-color: brown;
 	list-style-type: none;
-	margin: auto;
+	margin: 0 5px 0 5px;
 	padding-top: 0;
 	padding-bottom: 5em;
-	text-align: center;
-	border: 4px groove dodgerblue;
-	padding-left: 0;
+	padding-left: 5px;
 	padding-right: 0;
-	width: 1000px;
+	/*text-align: center;*/
+	border: 4px groove dodgerblue;
+	width: 100%;
 }
 
-nav ul:active {
+/*nav ul:active {
 	width: 1010px;
+}*/
+
+ul:active {
+	margin-left: 0 0 0 0;
+	margin-right: 0;
+	padding-left: 0;
 }
 
 nav li {
-	float: left;
-	margin: auto;
-	width: 248px;
-	height: 3em;
+    float: left;
+    padding: 0;
+    /*margin: 0 5px;*/
+    /*margin-left: 5px;*/
+    margin-right: 0;
+    width: 24.5%;
+    height: 3em;
+    padding-top: 2em;
+     border-right: 2px groove dodgerblue; 
+}
+
+#farRight {
+	border-right: none;
+}
+
+
+li:active {
+	padding: 0 5px;
+	position: relative;
 	padding-top: 2em;
-	border-left: 2px groove dodgerblue;
+	margin: 0;
 }
 
 h1 {
@@ -53,8 +74,3 @@ li:hover {
 	background-color: aquamarine;
 }
 
-li:active {
-	padding: 0 5px 0 5px;
-	position: relative;
-	padding-top: 2em;
-}
